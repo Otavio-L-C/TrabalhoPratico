@@ -1,0 +1,7 @@
+name=A
+host=127.0.0.1
+port=5000
+tmp=peerA/tmp
+
+peer=B,127.0.0.1,5001
+peer=C,127.0.0.1,5002
