@@ -72,17 +72,18 @@ Esse comando solicita a um peer a lista dos arquivos existentes em seu diretóri
 
 O programa utiliza múltiplas threads para que diferentes atividades possam ocorrer simultaneamente.
 São utilizadas threads para:
-Recebimento de mensagens
+
+- Recebimento de mensagens
 
 thread_recebimento
 
--Fica aguardando novas mensagens UDP.
+Fica aguardando novas mensagens UDP.
 
-Monitoramento do diretório
+- Monitoramento do diretório
 
 thread_monitoramento
 
--Verifica periodicamente se arquivos foram adicionados ou removidos.
+Verifica periodicamente se arquivos foram adicionados ou removidos.
 
 - Envio de arquivos
 
